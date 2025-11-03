@@ -1,16 +1,59 @@
 # React + Vite
+# Desti Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Desti frontend! This project uses [React](https://react.dev/) and [Vite](https://vitejs.dev/) to build a fast, modern web application.
 
-Currently, two official plugins are available:
+## Prerequisites
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## React Compiler
+1. **Install dependencies**
+	Open a terminal and run:
+	```powershell
+	npm install
+	```
+	This will install all required packages (React, Vite, etc.).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Project Structure**
+	- `src/`: Main source code folder
+	  - `App.jsx`: Main React component
+	  - `main.jsx`: Entry point for React app
+	  - `assets/`: Images and static assets
+	- `public/`: Static files (like `index.html`)
+	- `vite.config.js`: Vite configuration
+	- `package.json`: Project config and dependencies
 
-## Expanding the ESLint configuration
+3. **Run the Development Server**
+	Start the frontend server with:
+	```powershell
+	npm run dev
+	```
+	The app will run on [http://localhost:5173](http://localhost:5173) by default. Open this URL in your browser to see your app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Edit and See Changes**
+	- Open any file in `src/` (like `App.jsx`).
+	- Save your changes and the browser will automatically reload.
+
+## How It Works
+- **React** lets you build user interfaces using components.
+- **Vite** provides fast development and build tools.
+- The entry point (`main.jsx`) renders the `App` component into the page.
+
+## Next Steps
+- Add new components in `src/`
+- Style your app with CSS or libraries
+- Connect to your backend API
+- Build for production with:
+  ```powershell
+  npm run build
+  ```
+
+## Useful Resources
+- [React Documentation](https://react.dev/learn)
+- [Vite Documentation](https://vitejs.dev/guide/)
+- [MDN: React Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+
+---
+Happy coding! If you get stuck, check the docs above or ask for help.
